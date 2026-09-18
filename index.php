@@ -1,5 +1,5 @@
 <?php 
-define('BOT_TOKEN', '7522173790:AAHIYfL6780eV140jKlIjdEHLiWwfpz7Dtk');
+define('BOT_TOKEN', '7522173790:');
 // Получаем хуйню от Телеграма
 $content = file_get_contents("php://input");
 $update = json_decode($content, true);
